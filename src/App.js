@@ -7,8 +7,8 @@ function App() {
       <div className="overlay">
         <div className="card">
           <h1>Dulce Valeria Miguel Juan</h1>
-          <h2>🏫 Universidad Tecnológica de Querétaro</h2>
-          <h3>📘 Materia: Desarrollo Web Int</h3>
+          <h2> Universidad Tecnológica de Querétaro</h2>
+          <h3> Materia: Desarrollo Web Int</h3>
           <p>IDGS11</p>
 
           <button className="cta-button" onClick={() => window.open('https://github.com/Valeria-Miguel/Evaluacion-U2', '_blank')}>
