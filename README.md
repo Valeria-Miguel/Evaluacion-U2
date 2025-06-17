@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Landing Page con React y GitHub Pages
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene una landing page  desarrollada con React. El proyecto está configurado para ser desplegado automáticamente en GitHub Pages utilizando GitHub Actions como herramienta de integración y entrega continua (CI/CD).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Requisitos Previos
 
-### `npm start`
+Antes de comenzar, asegúrate de tener instalado lo siguiente en tu equipo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Node.js](https://nodejs.org/) (versión 19)
+- npm (incluido con Node.js)
+- Git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sigue los pasos a continuación para clonar y ejecutar el proyecto en tu entorno local:
 
-### `npm run build`
+### 1. Clonar el repositorio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git https://github.com/Valeria-Miguel/evaluacion-u2.git
+```
+### 2. Navegar al directorio del proyecto
+```bash
+cd evaluacion-u2
+```
+### 3. Instalar las dependencias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Ejecución local
+Para iniciar el servidor de desarrollo, utiliza el siguiente comando:
 
-### `npm run eject`
+npm start
+Una vez ejecutado, abre tu navegador y accede a http://localhost:3000 para ver el sitio en funcionamiento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ###Estructura del Proyecto
+/public: Contiene archivos estáticos como el HTML principal e imágenes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+/src: Carpeta con todo el código fuente de la aplicación React.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+App.js: Componente principal de la aplicación.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+App.css: Hoja de estilos principal.
 
-## Learn More
+/.github/workflows: Contiene los archivos de configuración del flujo de trabajo de GitHub Actions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### se uso 
+React: Biblioteca JavaScript para construir interfaces de usuario.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+GitHub Pages: Plataforma de hosting estático para sitios web directamente desde repositorios de GitHub.
 
-### Code Splitting
+GitHub Actions: Herramienta de automatización para CI/CD.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Node.js y npm: Entorno y gestor de paquetes para ejecutar y administrar el proyecto.
 
-### Analyzing the Bundle Size
+###  Despliegue Automático
+El sitio se despliega automáticamente cada vez que se realiza un git push a la rama main. GitHub Actions se encarga de ejecutar el flujo de trabajo definido en el archivo YAML, compilar el proyecto y publicarlo en GitHub Pages sin necesidad de intervención manual.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Enlaces del Proyecto
+```bash
+Repositorio: https://github.com/Valeria-Miguel/evaluacion-u2
+```
+```bash
+Sitio en Producción: https://valeria-miguel.github.io/evaluacion-u2/
+```

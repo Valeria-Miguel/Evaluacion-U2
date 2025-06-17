@@ -1,7 +1,7 @@
 {
   "name": "evaluacion-u2",
   "version": "0.1.0",
-  "homepage": "https://Valeria-Miguel.github.com.io/valuacion-u2/",
+  "homepage": "https://Valeria-Miguel.github.com.io/evaluacion-u2/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
